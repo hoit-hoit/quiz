@@ -1,0 +1,64 @@
+.quiz-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+  height: 620px;
+  width: 340px;
+  border: 5px solid #294fb1;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px #888;
+  }
+  .quiz-page>.score{ 
+    color: #294fb1;
+    font-size: 25px;  
+    background-image: url(../../public/images/circle.jpg);
+    width: 153px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quiz-page>h2{
+    font-size: 60px;
+    color:#294fb1;
+  }
+  .quiz-page>.count{
+    font-size: 30px;
+  }
+  .quiz-page>.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;    
+    text-align: center;    
+    padding: 10px;
+    background-color: #eaa319;
+    width: 287px;
+    height: 116px;
+    border-radius: 20px;
+    word-break: keep-all;
+    line-height: 40px;
+    box-shadow: 10px 5px 5px #888;
+  }
+  .quiz-page>.choices{    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;    
+  }
+  .quiz-page>.choices>button{
+  font-size: 23px;
+  border:3px solid #294fb1;
+  min-height:39px; 
+  min-width: 163px;
+  border-radius: 7px;   
+  margin: 10px;
+  padding: 5px;
+  }
+  .quiz-page>.choices>button:hover{
+    background-color: #294fb1;
+    color: #fff;
+    cursor: pointer;
+  }

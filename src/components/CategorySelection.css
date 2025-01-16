@@ -1,0 +1,56 @@
+  .category-selection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 620px;
+    width: 340px;
+    border: 5px solid #294fb1;
+    border-radius: 30px;    
+    box-shadow: 10px 5px 5px #888;  
+    }
+
+    .category-selection>h1{
+    font-size: 50px;
+    color : #294fb1;
+    text-align: center;  
+    text-shadow: 2px 2px 2px #999;
+  }
+  .category-selection>h1>p:nth-child(2){
+    margin-top:20px ;    
+  }
+  .category-selection>.buttons>button{
+    font-size: 25px;
+    border:3px solid #294fb1;
+    min-height:42px; 
+    min-width: 127px;
+    border-radius: 7px; 
+    box-shadow: 10px 5px 5px #888; 
+  }
+  .category-selection>h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    text-align: center;    
+    font-size: 30px;   
+    background-image: url(../../public/images/category.jpg);
+    width: 220px;
+    height: 160px;
+  }
+  .category-selection>h2>p:nth-child(2){
+    margin-bottom: 30px;
+  }
+  .category-selection>.buttons{        
+    display: flex;     
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+  }
+  .category-selection>.buttons>button:hover{
+    background-color: #294fb1;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
